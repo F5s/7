@@ -9,7 +9,7 @@ var obj = JSON.parse($response.body);
   "name": "大雄脚本组",
   "id": 4960640,
   "passSecure": false,
-  "vipEndDate": "20330912"
+  "vipEndDate": "4092566400"
  }
 };
 $done({body: JSON.stringify(obj)});
