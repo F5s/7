@@ -15,9 +15,9 @@ let key = "4945D5AF62FEFE6043D7828462FA4ADC0D7478745E72F6D6565D35773286C71295833
 
 let obj = JSON.parse($response.body);
 
-#if (obj.data.match(/^[A-Z0-9]{1000,40000}$/)) {
+//if (obj.data.match(/^[A-Z0-9]{1000,40000}$/)) {
   obj.data = key;
-#}
+//}
 $done({
   body: JSON.stringify(obj)
 });
