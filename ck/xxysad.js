@@ -3,7 +3,6 @@
 https:\/\/.*\/getGlobalData
 */
 
-
 let obj = JSON.parse($response.body);
 delete obj.data.adrows
 delete obj.data.iOS_adgroups
