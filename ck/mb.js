@@ -6,7 +6,7 @@ var obj = JSON.parse($response.body);
   "level": 2    ,
   "phone": null,
   "encryptPassword": null,
-  "name": "F5s",
+  "name": "F5s",
   "id": 4960640,
   "passSecure": false,
   "vipEndDate": "20290909"
