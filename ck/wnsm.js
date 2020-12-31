@@ -2,7 +2,7 @@
 Unlocks by photonmang 公众号：墨鱼手记
 re('"expires":\\d+@"expired":\\w+@"vip":\\w+','"expires":4079147492@"expired":false@"vip":true')
 */
-re('"expires":\\d+@"expired":\\w+@"vip":\\w+@"vipNeedPay":\\w+@"needPay":\\w+','"expires":4079147492000@"expired":false@"vip":true@"vipNeedPay":false@"needPay":false')
+re('"expires":\\d+@"expired":\\w+@"vip":\\w+@"vipNeedPay":\\w+@"needPay":\\w+','"expires":4828057694000@"expired":false@"vip":true@"vipNeedPay":false@"needPay":false')
 
 function re() {
  var body = $response.body;

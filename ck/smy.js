@@ -5,8 +5,8 @@ var obj = JSON.parse($response.body);
  "result": {
   "isvip": "true",
   "romspace": "200",
-  "nickname": "大雄脚本组",
-  "expiretime": "2099-11-24",
+  "nickname": "F5s",
+  "expiretime": "2121-11-24",
   "registertime": "2019-11-24",
   "ocrtimes": "8",
   "tel": "",

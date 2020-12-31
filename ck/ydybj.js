@@ -24,6 +24,6 @@ obj.properties.isvip = true
 if ($request.url.indexOf(path2) != -1){
   obj.service = 1,
   obj.payYear = true,
-  obj.end = 1867248816000
+  obj.end = 4811209694
  }
 $done({body: JSON.stringify(obj)});

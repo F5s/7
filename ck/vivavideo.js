@@ -24,13 +24,13 @@ obj = {
     "premiumVipYearly": 3
   },
   "isTrialPeriod": true,
-  "endTime": 4081109070000,
+  "endTime": 4828057694000,
   "platform": 2,
   "vipType": "premium_platinum_yearly",
   "duidDgest": "DIIe86X35",
   "autoRenewStatus": 1,
-  "startTime": 1556241871000,
-  "systemDate": 1556965441014
+  "startTime": 1609434337000,
+  "systemDate": 1609434337000
 };
 
 $done({body: JSON.stringify(obj)});

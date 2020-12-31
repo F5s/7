@@ -15,11 +15,11 @@ var obj = JSON.parse($response.body);
   "reading_page_count": 447,
   "type": "registered",
   "email": "",
-  "username": "***8888",
+  "username": "F5s",
   "daily_share_count": 0,
   "translation_count": 553,
   "biz": {
-   "xy_vip_expire": 1999999999572020700,
+   "xy_vip_expire": 4828057694000,
    "platform_name": "caiyun",
    "phone_num": "15735012326",
    "name": "***2326",

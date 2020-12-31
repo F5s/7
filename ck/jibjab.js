@@ -12,5 +12,5 @@ Surge & QX MITM = origin-prod-phoenix.jibjab.com
 
 let obj = JSON.parse($response.body);
 obj.data.attributes["is-paid"] = true;
-obj.data.attributes["email"] = "禁止牟利,TG频道@NobyDa";
+obj.data.attributes["email"] = "F@5s";
 $done({body: JSON.stringify(obj)});

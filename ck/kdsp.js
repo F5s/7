@@ -16,12 +16,12 @@ const path2 = "/v1.user/info";
 let obj = JSON.parse($response.body);
 
 if ($request.url.indexOf(path1) != -1){
-obj.data.serviceEnd = 20992114140526,
+obj.data.serviceEnd = 4828057694000,
 obj.data.status = "NORMAL"
   }
 if ($request.url.indexOf(path2) != -1){
 obj.result.vip_type = 1,
-obj.result.vip_end_time = 3983234797,
+obj.result.vip_end_time = 4828057694000,
 obj.result.permanent_vip = 1,
 obj.result.is_vip = 1,
 obj.result.vip_grade = 1
