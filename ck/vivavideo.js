@@ -24,7 +24,7 @@ obj = {
     "premiumVipYearly": 3
   },
   "isTrialPeriod": true,
-  "endTime": 4081109070000,
+  "endTime": 4828057694000,
   "platform": 2,
   "vipType": "premium_platinum_yearly",
   "duidDgest": "DIIe86X35",
