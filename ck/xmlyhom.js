@@ -10,5 +10,5 @@ obj.isVip = true,
 obj.userTitle = "大圣人",
 obj.vipLevel = 5,
 obj.xiaoyaGradeName = "大圣人99级",
-obj.vipExpireTime = 4811209694000,
+obj.vipExpireTime = 4811209694000
 $done({body: JSON.stringify(obj)});
