@@ -23,7 +23,7 @@ if ($request.url.indexOf(path1) != -1){
  obj.data["autoMobileMMExpires"] = 0,
  obj.data["isMiguVip"] = 3,
  obj.data["autoState"] = 10,
- obj.data["autoExpires"] = 4828057694000
+ obj.data["autoExpires"] = 4828057694
 }
 if ($request.url.indexOf(path2) != -1){
     obj.data={
@@ -32,7 +32,7 @@ if ($request.url.indexOf(path2) != -1){
     "giftVip": 1,
     "productId": "SaladVip_Int01",
     "appleVip": 1,
-    "expireTime": 4828057694000,
+    "expireTime": 4828057694,
     "operationVip": 1,
     "errorCode": 0
   }
