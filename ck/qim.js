@@ -21,7 +21,7 @@ const path4 = "/get-role-adv-vip-info";
 var obj = JSON.parse($response.body);
 
 if ($request.url.indexOf(path4) != -1){
-	obj.data.users.isvip = 1,
+	obj.data.users.isvip = 2,
 	obj.data.users.time = 4811209694000,
 	obj.data.users.isLifetimeVip = 1
 }else {
