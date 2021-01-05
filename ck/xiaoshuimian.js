@@ -1,5 +1,6 @@
 //*by 黑黑酱
 
+
 re('"is_vip":\\d@"vip_expires":\\d+@"point_expires_time":\\d','"is_vip":1@"vip_expires":4828057694@"point_expires_time":4828057694')
 
 function re() {
@@ -18,3 +19,4 @@ function re() {
 }
  $done(body);
 } 
+
