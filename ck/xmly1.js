@@ -8,7 +8,7 @@ const path1 = "/mobile-user/homePage";
 const path2 = "/vip/check/user";
 
 
-let obj = JSON.parse($response.body);
+var obj = JSON.parse($response.body);
 if ($request.url.indexOf(path1) != -1){
 	obj.userGrade = 3,
 	obj.isVip = true,
