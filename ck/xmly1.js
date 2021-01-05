@@ -20,7 +20,7 @@ if ($request.url.indexOf(path1) != -1){
 	obj.userTitle = "秀才",
 	obj.vipLevel = 3,
 	obj.xiaoyaGradeName = "秀才1级",
-	obj.vipExpireTime = 4811209694000,
+	obj.vipExpireTime = 4811209694000
 }
 
 if ($request.url.indexOf(path2) != -1){
