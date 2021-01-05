@@ -10,8 +10,17 @@ const path2 = "/vip/check/user";
 
 let obj = JSON.parse($response.body);
 if ($request.url.indexOf(path1) != -1){
+	obj.userGrade = 3,
+	obj.followings = 6,
+	obj.xiaoyaStudyRoomInfo.isShowEntrance = true,
 	obj.isVip = true,
-	obj.vipExpireTime = 4811209694000
+	obj.costTime = "2 ms",
+	obj.xiaoyaGrade = 3,
+	obj.vipStatus = 5,
+	obj.userTitle = "秀才",
+	obj.vipLevel = 3,
+	obj.xiaoyaGradeName = "秀才1级",
+	obj.vipExpireTime = 4811209694000,
 }
 
 if ($request.url.indexOf(path2) != -1){
