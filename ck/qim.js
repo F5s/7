@@ -4,15 +4,9 @@ const path1 = "/get-user-info";
 const path2 = "/user/page";
 const path3 = "/user/my-center";
 
-https://xiaoshuo.wtzw.com/api/v1/user/get-role-adv-vip-info
+const path3 = "/user/get-role-adv-vip-info";
 
-if (
-	url.indexOf(path1) != -1 ||
-	url.indexOf(path2) != -1 ||
-	url.indexOf(path3) != -1 
-	){
-	obj.data.is_vip = 1
-}
+
 */
 
 
