@@ -16,22 +16,19 @@ if (uurl.indexOf(path3) != -1){
 	obj.price = 0.00,
 	obj.discountedPrice = 0.00,
 	obj.isFree = true,
-	obj.balanceAmount = 99999.00,
-	obj.albumIsAuthorized = true,
-	obj.copyrightExpired = true
+	obj.balanceAmount = 99999
 }
-
 if (uurl.indexOf(path1) != -1){
 	obj.vipExpireTime = 4811209694000
 }
 
 if (uurl.indexOf(path2) != -1){
-	obj.isVerified = true,
 	obj.isVip = true,
 	obj.anchorGrade = 11,
 	obj.userGrade = 5,
 	obj.xiaoyaGrade = 5,
 	obj.verifyType = 2,
+	obj.totalSubcribed=9999,
 	obj.vipExpireTime = 4811209694000
 }
 
