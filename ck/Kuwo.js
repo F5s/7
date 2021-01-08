@@ -27,6 +27,7 @@ if (url.indexOf(vip) != -1) {
 	obj.data["vipOverSeasExpire"] = "4828057694000";
 	obj.data["vipExpire"] = "4828057694000";
 	obj.data["vip3Expire"] = "4828057694000";
+	obj.data["experienceExpire"] = "4828057694000";
 	body = JSON.stringify(obj);
 }
 
