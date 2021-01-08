@@ -1,9 +1,9 @@
 /*
 quanmin vip
 
-
 */
 
+const path1 = "center/index.api";
 
 var obj = JSON.parse($response.body);
 
