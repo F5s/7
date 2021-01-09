@@ -21,7 +21,6 @@ const time = '/vip/spi/mservice';
 if (url.indexOf(vip) != -1) {
 	obj.data["isNewUser"] = "2";
 	obj.data["vipLuxuryExpire"] = "4828057694000";
-	obj.data["time"] = "4828057694000";
 	obj.data["isYearUser"] = "2";
 	obj.data["vipmExpire"] = "4828057694000";
 	obj.data["vipOverSeasExpire"] = "4828057694000";
