@@ -4,7 +4,7 @@ lya vip
 */
 
 
-const path1 = "/mobile/homePage";
+const path1 = "/homePage";
 
 
 var obj = JSON.parse($response.body);
