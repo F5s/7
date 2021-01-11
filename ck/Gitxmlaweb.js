@@ -5,7 +5,7 @@
 
 
 var obj = JSON.parse($response.body);
-	obj.data.vipStatus = 3,
+	obj.data.vipStatus = 5,
 	obj.data.expireDate = 4811209694000,
 	obj.data.expireDays = 9999,
 	obj.data.autoRenew = true,
