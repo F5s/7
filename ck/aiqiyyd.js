@@ -1,8 +1,8 @@
 /*
 aiqiyyd vip
 
-HTTPS	passport.iqiyi.com	/apis/user/info.action	
-HTTP	i.vip.iqiyi.com	/client/store/ios/mixMultiProducts.action
+HTTPS	passport.iqiyi.com		/apis/user/info.action	
+HTTP	i.vip.iqiyi.com			/client/store/ios/mixMultiProducts.action
 HTTPS	api-yuedu-1.iqiyi.com	/book/monthly/popToast
 HTTPS	api-yuedu-1.iqiyi.com	/book/member/userInfo
 HTTPS	api-yuedu-1.iqiyi.com	/book/cloudStrategy
