@@ -45,7 +45,7 @@ obj.data.userInfo.status = 1
 
 if (uurl.indexOf(path3) != -1){
 obj.data.topCapacityEndTime = 4811209694000,
-obj.data.isDiamondMonthlyMember = "0",
+obj.data.isDiamondMonthlyMember = "1",
 obj.data.memberExpireGuideText = "终身会员",
 obj.data.topCapacity = 2,
 obj.data.showDiamondVipLabel = "0",
@@ -66,7 +66,7 @@ obj.user_info.deadline = "2122-06-18"
 }
 
 if (uurl.indexOf(path5) != -1){
-obj.monthlyMemberEndTime = 4811209694000,
+obj.monthlyMemberEndTime = "4811209694000",
 obj.isMonthlyMember = true,
 obj.monthlyMember.baseVipType = 1,
 obj.monthlyMember.baseVipEndTime = 4811209694000,
