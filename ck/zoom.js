@@ -9,7 +9,6 @@ zoome vip
 
 
 var obj = JSON.parse($response.body);
-var uurl = $request.url;
 const path1 = "/v1/subscribers";
 
 
