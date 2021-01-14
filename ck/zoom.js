@@ -9,23 +9,22 @@ zoome vip
 
 
 var obj = JSON.parse($response.body);
-const path1 = "/subscribers";
+const path1 = "subscribers";
 
 
 if ($request.url.indexOf(path1) != -1){
 obj.subscriber.entitlements.pro.expires_date = "2122-06-18T15:08:14Z",
 obj.subscriber.entitlements.pro.grace_period_expires_date = "2122-06-18T15:08:14Z",
-obj.subscriber.subscriptions["zoomerang.yearly"].grace_period_expires_date = "2122-06-18T15:08:14Z",
-obj.subscriber.subscriptions["zoomerang.yearly"].expires_date = "2122-06-18T15:08:14Z",
-obj.subscriber.subscriptions["zoomerang.yearly"].unsubscribe_detected_at = "2122-06-18T15:08:14Z",
-obj.subscriber.subscriptions["zoomerang.yearly"].period_type = "yearly",
-obj.subscriber.subscriptions["zoomerang.yearly.sale35"].billing_issues_detected_at = "2020-12-22T07:04:02Z",
-obj.subscriber.subscriptions["zoomerang.yearly.sale35"].grace_period_expires_date = "2122-06-18T15:08:14Z",
-obj.subscriber.subscriptions["zoomerang.yearly.sale35"].expires_date = "2122-06-18T15:08:14Z",
-obj.subscriber.subscriptions["zoomerang.yearly.sale35"].unsubscribe_detected_at = "2122-06-18T15:08:14Z",
-obj.subscriber.subscriptions["zoomerang.yearly.sale35"].period_type = "yearly"
+obj.subscriber.subscriptions["blocker.ios.subscription.yearly"].grace_period_expires_date = "2122-06-18T15:08:14Z",
+obj.subscriber.subscriptions["blocker.ios.subscription.yearly"].expires_date = "2122-06-18T15:08:14Z",
+obj.subscriber.subscriptions["blocker.ios.subscription.yearly"].unsubscribe_detected_at = "2122-06-18T15:08:14Z",
+obj.subscriber.subscriptions["blocker.ios.subscription.yearly"].period_type = "yearly",
+obj.subscriber.subscriptions["blocker.ios.subscription.yearly"].is_sandbox = true,
+obj.subscriber.entitlements.premium.grace_period_expires_date = "2122-06-18T15:08:14Z",
+obj.subscriber.entitlements.premium.expires_date = "2122-06-18T15:08:14Z"
 } else {
 obj.result.is_pro = true,
+obj.is_promocode_active : true,
 obj.result.pro_expiry_date = "4811209694000"
 }
 
