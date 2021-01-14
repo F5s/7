@@ -9,7 +9,7 @@ zoome vip
 
 
 var obj = JSON.parse($response.body);
-const path1 = "subscribers";
+const path1 = "receipts";
 
 
 if ($request.url.indexOf(path1) != -1){
