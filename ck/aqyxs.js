@@ -52,7 +52,8 @@ obj.monthlyMember.baseVipType = 1,
 obj.monthlyMember.baseVipEndTime = 4811209694000,
 obj.monthlyMember.baseVipStartTime = 1610513251292,
 obj.monthlyMember.isVipExpire = false,
-obj.monthlyMember.lastEndTime = 4811209694000
+obj.monthlyMember.lastEndTime = 4811209694000,
+obj.memberPromotionText = "已开通"
 }
 
 if (uurl.indexOf(path6) != -1){
