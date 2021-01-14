@@ -20,11 +20,9 @@ if (uurl.indexOf(path1) != -1){
 obj.data.vip_list = [{"autoRenew":"0","level":"1","paidSign":1,"vipType":"1","payType":"0","status":"1","type":"1","surplus":"1","yearExpire":1,"deadline":{"t":4811209694000},"longestDeadline":{"t":4811209694000},"superscript":"http://m.iqiyipic.com/common/lego/20200507/985a0a8e8f1f4a6ea699b1b600860c2e.png"}]
 }
 
+
 if (uurl.indexOf(path2) != -1){
-obj.data.userInfo.expire = 0,
-obj.data.userInfo.vipDeadline = "2122-06-18 15:08:14",
-obj.data.userInfo.isVipUser = true,
-obj.data.userInfo.status = 1
+obj.data = "storeInfo":[{"vipType":1,"isValidVip":true,}],"userInfo":{"vipSuperscript":"http://m.iqiyipic.com/common/lego/20200507/985a0a8e8f1f4a6ea699b1b600860c2e.png","expire":0,"vipDeadline":"2122-06-18 15:08:14","isVipUser":true,"status":1}
 }
 
 
