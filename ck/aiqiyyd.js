@@ -7,6 +7,7 @@ HTTPS	api-yuedu-1.iqiyi.com	/book/monthly/popToast
 HTTPS	api-yuedu-1.iqiyi.com	/book/member/userInfo
 HTTPS	api-yuedu-1.iqiyi.com	/book/cloudStrategy
 HTTPS	api-yuedu.iqiyi.com		/book/cloudStrategy
+HTTP	serv.vip.iqiyi.com	/pay/result/multi-identity.action
 
 */
 
@@ -44,9 +45,10 @@ obj.data.userInfo.status = 1
 
 
 if (uurl.indexOf(path3) != -1){
+obj.data.topCapacityStartTime = 1529223007000,
+obj.data.monthlyStartTime = 1529223007000,
 obj.data.topCapacityEndTime = 4811209694000,
 obj.data.isDiamondMonthlyMember = "1",
-obj.data.memberExpireGuideText = "终身会员",
 obj.data.topCapacity = 2,
 obj.data.showDiamondVipLabel = "0",
 obj.data.monthlyEndTime = 4811209694000,
@@ -64,6 +66,13 @@ obj.user_info.vip[0].endTime = 4811209694000,
 obj.user_info.type = 1,
 obj.user_info.deadline = "2122-06-18"
 }
+if (uurl.indexOf(path4) != -1){
+obj.user_info.vip_info = [{"vipType":2,"startTime":1610589472012,"endTime":4811209694000,"text":"黄金会员至 2122-06-18","order":3}],
+obj.user_info.vip = [{"vipType":"1","startTime":1529223007000,"endTime":4811209694000}],
+obj.user_info.type = 1,
+obj.user_info.deadline = "2122-06-18"
+}
+
 
 if (uurl.indexOf(path5) != -1){
 obj.monthlyMemberEndTime = "4811209694000",
