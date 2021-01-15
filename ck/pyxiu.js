@@ -13,7 +13,7 @@ obj.data.gold = 99999,
 obj.data.gold2 = 99999
 } else {
 obj.data.end_time = "2122-06-18 15:08:14",
-obj.data.vipLevel = 3,
+obj.data.vipLevel = 2,
 obj.data.eventEndText = "2122-06-18"
 }
 
