@@ -10,7 +10,7 @@ https://api-1220.focodesign.com/v3/users/1865223637/works/0/risk_materials?mater
 
 let obj = JSON.parse($response.body);
 const path1 = "/cms/materials?ids=";
-const path1 = "/risk_materials?material_id=";
+const path2 = "/risk_materials?material_id=";
 
 obj.grade = 1,
 obj.expired_at = 4811209694,
