@@ -1,7 +1,7 @@
 /*
 pyxiu
 
-https://iosapi.peiyinxiu.com/Api/User/GetTools
+/Api/User/GetTools
 */
 
 const path1 = "/GetMyInfo";
