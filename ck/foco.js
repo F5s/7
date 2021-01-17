@@ -1,26 +1,26 @@
 /*foco
 
-/v3/users/1865223637/grade
-/v3/user/info
-api-1220.focodesign.com	/v3/cms/materials?ids=33968833			
-https://api-1220.focodesign.com/v3/users/1865223637/works/0/risk_materials?material_id=33968118
+/v1/user_grade_expire
+/v2/users/0/info
+/v2/users/info
 */
 
 
 
 let obj = JSON.parse($response.body);
-const path1 = "/cms/materials?ids=";
-const path2 = "/risk_materials?material_id=";
+const path1 = "/user_grade_expire";
+const path2 = "/info";
 
-obj.grade = 1,
-obj.expired_at = 4811209694,
-obj.is_expire = 0
+
 if ($request.url.indexOf(path1) != -1){
-obj[0].vip = 0,
-obj[0].user_over_role = 0
+obj.data.grade = 5,
+obj.data.expired_at = 4811209694,
+obj.data.is_expire = 0
 }
 
 if ($request.url.indexOf(path2) != -1){
-obj.has_purchased = true
+obj.grade = 5,
+obj.expired_at = 4811209694,
+obj.is_expire = 0
 }
 $done({body: JSON.stringify(obj)});
