@@ -4,7 +4,7 @@ qim pro
 */
 
 
-let obj = JSON.parse($response.body);
-obj.data = {"list": [""]}
+var body = $response.body;
+body = body.replace(/list":(\s|\S)*\]/,'list": [" "]');
 
-$done({body: JSON.stringify(obj)});
+$done({ body });
