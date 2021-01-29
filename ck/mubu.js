@@ -1,6 +1,6 @@
 /*
-幕布解锁Pro
-https://mubu.com/api/app/user/info
+mubu解锁Pro
+/user/current_user
 */
 
 let obj = JSON.parse($response.body);
