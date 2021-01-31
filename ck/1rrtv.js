@@ -1,17 +1,8 @@
 /*
-https://api.rr.tv/user/profile
-https://api.rr.tv/v3plus/medal/getAllMedalDetailWithPiece
-https://api.rr.tv/v3plus/user/detail
-https://api.rr.tv/user/privilege/list
-https://api.rr.tv/ad/getAll
-https://api.rr.tv/watch/v4/priority_video_quality/get_priority_video_quality_config?seasonId=34896
-https://api.rr.tv/rrtv-video/v4plus/season/detail?seasonId=34896&token=rrtv-885a582ff8eecbc05718494cc7d3c39021595579
+rrtv
 */
 
 const path1 = "/user/profile";
-//const path2 = "/user/msgCount";
-//const path3 = "/subscriptions/season";
-const path4 = "/getAllMedalDetailWithPiece";
 const path5 = "/user/detail";
 const path6 = "/user/privilege/list";
 const path7 = "/ad/getAll";
@@ -131,14 +122,6 @@ if (url.indexOf(path1) != -1) {
         "endTime": 4811209694000
     }];
     body = JSON.stringify(obj);
-}
-
-if (url.indexOf(path4) != -1) {
-	body = body.replace(/durationDays":\d+/g,'durationDays":9999');
-	body = body.replace(/activity":false/g,'activity":true');
-	body = body.replace(/beginTime":null/g,'beginTime":1612085725541');
-	body = body.replace(/endTime":null/g,'endTime":4811209694000');
-	body = body.replace(/assembly":false/g,'assembly":true');
 }
 
 if (url.indexOf(path5) != -1) {
