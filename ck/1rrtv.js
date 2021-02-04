@@ -3,6 +3,7 @@ rrtv
 */
 
 const path1 = "/user/profile";
+const path2 = "getLastestVersion";
 const path5 = "/user/detail";
 const path6 = "/user/privilege/list";
 const path7 = "/ad/getAll";
@@ -121,6 +122,12 @@ if (url.indexOf(path1) != -1) {
         "icon": "gaoliangfatie",
         "endTime": 4811209694000
     }];
+    body = JSON.stringify(obj);
+}
+
+if (url.indexOf(path2) != -1) {
+    var obj = JSON.parse(body);
+    obj.data.versionView = null;
     body = JSON.stringify(obj);
 }
 
