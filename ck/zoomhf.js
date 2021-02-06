@@ -1,5 +1,4 @@
-let body= $response.body;
-let obj = JSON.parse(body);
+var obj = JSON.parse($response.body);
 if (body.indexOf("zoomerang") != -1) {
 obj["subscriber"]["subscriptions"]["zoomerang.yearly"]= 
 {
