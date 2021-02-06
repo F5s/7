@@ -1,4 +1,6 @@
-let obj = JSON.parse($response.body);
+let body= $response.body;
+let obj = JSON.parse(body);
+if (body.indexOf("zoomerang") != -1) {
 obj["subscriber"]["subscriptions"]["zoomerang.yearly"]= 
 {
 "is_sandbox": false,
@@ -19,4 +21,5 @@ obj["subscriber"]["entitlements"] = {
 "expires_date": "2121-01-07T05:20:23Z"
   }
 };
+}
 $done({body: JSON.stringify(obj)});
