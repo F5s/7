@@ -54,6 +54,7 @@ if(url.indexOf(path4) != -1){
 if(url.indexOf(path5) != -1){
 	var obj = JSON.parse(body);
 	obj.userinfo = {"vip_type":1,"m_type":1,"m_is_old":0,"quota_remain":9999};
+	obj.data[0].trans_param = {};
 	body = JSON.stringify(obj);
 }
 
