@@ -1,8 +1,6 @@
 /*
 kg
-http://media.store.kugou.com/v1/get_goods
-http://media.store.kugou.com/v1/get_res_privilege
-http://ads.service.kugou.com/v3/mobile_splash_sort
+
 */
 
 const path1 = "/v1/get_goods";
