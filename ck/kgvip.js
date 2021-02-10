@@ -7,6 +7,7 @@ const path1 = "/v1/get_my_info";
 const path2 = "/v5/login_by_token";
 const path3 = "/v1/get_login_extend_info";
 const path4 = "/overseas/check";
+const path5 = "/v1/get_res_privilege";
 
 var body = $response.body;
 var url = $request.url;
@@ -47,6 +48,12 @@ if(url.indexOf(path3) != -1){
 if(url.indexOf(path4) != -1){
 	var obj = JSON.parse(body);
 	obj.info.is_special_vip = 1;
+	body = JSON.stringify(obj);
+}
+
+if(url.indexOf(path5) != -1){
+	var obj = JSON.parse(body);
+	obj.userinfo = {"vip_type":1,"m_type":1,"m_is_old":0,"quota_remain":9999};
 	body = JSON.stringify(obj);
 }
 
