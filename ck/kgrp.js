@@ -20,8 +20,8 @@ if (url.indexOf(path1) != -1 ||
 
 if (url.indexOf(path3) != -1 ) {
 	body = body.replace(/val4":\d/,'val4":1');
-	body = body.replace(/vip_type":\d/,'vip_type":1');
-	body = body.replace(/m_type":\d/,'m_type":1');
+	body = body.replace(/vip_type":\d/g,'vip_type":1');
+	body = body.replace(/m_type":\d/g,'m_type":1');
 }
 
 $done({
