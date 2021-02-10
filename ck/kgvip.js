@@ -1,9 +1,6 @@
 /*
 kg
-http://usercenter.kugou.com/v1/get_my_info
-http://login.user.kugou.com/v5/login_by_token
-http://userinfo.user.kugou.com/v1/get_login_extend_info
-http://ip2.kugou.com/overseas/check
+
 */
 
 const path1 = "/v1/get_my_info";
