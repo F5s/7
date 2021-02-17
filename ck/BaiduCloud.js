@@ -1,22 +1,44 @@
 /*
 Baidu netdisc unlocks online video play speed.
 Key data from thor filter
+Surge4.0:
+http-response https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/BaiduCloud.js
 
+QX1.0.0:
+https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/BaiduCloud.js
+
+MITM = pan.baidu.com
 */
 
-const path1 = "/user/info";
 let obj = JSON.parse($response.body);
-
-if ($request.url.indexOf(path1) != -1) {
-    obj.user_info.is_vip = 0,
-    obj.user_info.is_svip = 1,
-    obj.user_info.is_first_charge_svip = 1,
-} else {
-    obj.product_infos = [{"product_id":"","start_time":1613591733,"end_time":4811209694,"buy_time":0,"cluster":"svip","detail_cluster":"svip","auto_upgrade_to_svip":0,"product_name":"vip2_1y","status":0,"function_num":0,"buy_description":"","product_description":"超级会员"}],
-    obj.reminder = {"reminderWithContent":{},"advertiseContent":{}},
-    obj.reminder.vip.nextState = "normal",
-    obj.current_product = {"cluster":"svip","detail_cluster":"svip","product_type":"svip2_nd"},
-    obj.level_info = {"current_value":0,"current_level":1,"history_value":0,"history_level":0},
-    obj.current_product_v2 = {"cluster":"svip","detail_cluster":"svip","product_type":"svip2_nd"},
-}
+obj = {
+  "product_infos": [{
+    "product_id": "5310897792128633390",
+    "start_time": 1417260485,
+    "end_time": 2147483648,
+    "buy_time": "1417260485",
+    "cluster": "offlinedl",
+    "detail_cluster": "offlinedl",
+    "product_name": "gz_telecom_exp"
+  }, {
+    "product_name": "svip2_1y",
+    "product_description": "超级会员",
+    "function_num": 0,
+    "start_time": 1553702399,
+    "buy_description": "",
+    "buy_time": 0,
+    "product_id": "1",
+    "auto_upgrade_to_svip": 0,
+    "end_time": 2147483648,
+    "cluster": "vip",
+    "detail_cluster": "svip",
+    "status": 0
+  }],
+  "currenttime": 1573473597,
+  "reminder": {
+    "reminderWithContent": [],
+    "advertiseContent": []
+  },
+  "request_id": 7501873289383874371
+};
 $done({body: JSON.stringify(obj)});
