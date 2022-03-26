@@ -8,11 +8,13 @@ hostname: api3.henpi.vip
 */
 
 
-var obj = JSON.parse($response.body);
-obj.data.userinfo.vip_type = 1,
-obj.data.userinfo.earnings = 9999,
-obj.data.userinfo.vip_endtime = 4769942399,
-obj.data.userinfo.money = 9199,
-obj.data.userInfo.is_music_pay_member = "yes",
+var body = $response.body;
+var obj = JSON.parse(body);
+	obj.data.userinfo["vip_type"] = 1;
+	obj.data.userinfo["earnings"] = 9999;
+	obj.data.userinfo["vip_endtime"] = 4769942399;
+	obj.data.userinfo["money"] = 9199;
+	obj.data.userInfo["is_music_pay_member"] = "yes";
+body = JSON.stringify(obj);
 
-$done({body: JSON.stringify(obj)});
+$done({body});
