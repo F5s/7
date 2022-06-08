@@ -30,15 +30,7 @@ var obj = JSON.parse($response.body);
 $done({body: JSON.stringify(obj)});
 */
 
-var obj = JSON.parse($response.body);
- obj={
- "data": {
-  "is_vip": "1",
-  "vip_expired": "4092599349",
-  "is_vip_now": true
- },
- "error": false,
- "status": 200
-};
+let obj = JSON.parse($response.body);
+obj. result.vipCheckResult = "zlW9SsBvibu+JT9FUFFUy2VSnXcs//FxdzKwYaofC9ij7Z6NpblTKPxI+GeUOs+zxvDy8jq7/Hwv75MAqZ7402iKtz9IATt3yQk6I1gABuJbFKyid8E8+4f0I+0VK96ELJFm3tswVWzx9Z6EM2QLYDg3ixfhUASjTZi6GIwerPxyxQgBjK8vh5YLw7WGn/PXrdHN4tSIpn8p0T5886YR5sB5m2qjG/NRxkNaVpFEmUXR3fc9MeaZiYRMTdho/vMH9JR8VPKaoRV/IT30Tyv8aL6e/+WzDw3Qlvw2vjlHdt0b3LTNRNTec51CT9KakoqYBjidFZ6vl2oyCsjA8/HRDQ==",
+
 $done({body: JSON.stringify(obj)});
-//
