@@ -1,6 +1,6 @@
 /******************************
 
-脚本功能：xt 6.9.0
+脚本功能：xingtu 6.9.0
 
 使用声明：此脚本仅供学习与交流，请勿转载与贩卖！⚠️⚠️⚠️
 
@@ -8,7 +8,7 @@
 
 [rewrite_local]
 
-^https:\/\/commerce-api\.faceu\.mobi\/commerce\/v1\/subscription\/user_info url script-request-header xt.js
+^https:\/\/commerce-api\.faceu\.mobi\/commerce\/v1\/subscription\/user_info url script-request-header xingtu.js
 
 [mitm] 
 
